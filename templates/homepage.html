@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>FarraBoa</title>
+    <title>
+        {% block titulo %}
+        FarraBoa
+        {% endblock %}
+    </title>
 </head>
-<body>
-Site no ar
-</body>
+{% block body %}
+    <body>
+    Página principal Farraboa
+    </body>
+{% endblock %}
 </html>
